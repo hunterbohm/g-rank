@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>G-Rank</title>
+    <meta name="description" content="A GStack mention leaderboard for Nerd Snipe episodes." />
+    <link rel="canonical" href="https://hunterbohm.github.io/g-rank/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hunterbohm.github.io/g-rank/" />
+    <meta property="og:title" content="G-Rank: The GStack incident tracker" />
+    <meta property="og:description" content="Nerd Snipe episodes ranked by first mention, drop density, and spiral factor." />
+    <meta property="og:image" content="https://hunterbohm.github.io/g-rank/assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="G-Rank: The GStack incident tracker" />
+    <meta name="twitter:description" content="A Nerd Snipe scoreboard for exact GStack drops." />
+    <meta name="twitter:image" content="https://hunterbohm.github.io/g-rank/assets/og.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="G-Rank home"><span class="brand-mark">G</span><span>G-Rank</span></a>
+        <nav aria-label="Page sections">
+          <a href="#leaderboard-panel">Leaderboard</a>
+          <a href="#factors">Formula</a>
+          <a href="#receipts-panel">Receipts</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Nerd Snipe case file</p>
+          <h1><span>The GStack</span><span>incident tracker.</span></h1>
+          <p class="lede">Every episode ranked by the exact moment GStack breaches containment, how often it comes back, and how hard the episode spirals afterward.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#leaderboard-panel">View the shame table</a>
+            <a class="button ghost" href="https://youtu.be/zsv_F_KeG6M?t=5294s" target="_blank" rel="noreferrer">Origin clip · 1:28:14</a>
+          </div>
+        </div>
+        <aside class="briefing-card" aria-label="Formula summary">
+          <div class="stamp">case open</div>
+          <h2>G-Rank formula</h2>
+          <ol>
+            <li><b>50%</b><span>first mention</span></li>
+            <li><b>30%</b><span>drops/hour</span></li>
+            <li><b>20%</b><span>post-hit spiral</span></li>
+          </ol>
+          <p>Target phrase: <strong>GStack / G Stack</strong>.</p>
+        </aside>
+      </section>
+
+      <section id="kpis" class="kpis" aria-label="G-Rank summary metrics"></section>
+
+      <section id="leaderboard-panel" class="panel leaderboard-panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Leaderboard</p>
+            <h2>The shame table</h2>
+          </div>
+          <p>Score is weighted. Drops are total GStack mentions. Receipts link to the exact timestamps.</p>
+        </div>
+        <div class="legend" aria-label="Score component legend"><span class="early">red: first mention</span><span class="volume">blue: drops/hour</span><span class="shame">brown: post-hit spiral</span></div>
+        <div class="table-head"><span>#</span><span>grade</span><span>episode</span><span>score</span><span>drops</span></div>
+        <div id="leaderboard" class="leaderboard"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Score anatomy</p>
+            <h2>What the score is made of</h2>
+          </div>
+          <p>Stacked bars use the same 50 / 30 / 20 weighting as the final rank.</p>
+        </div>
+        <div id="score-stack" class="score-stack"></div>
+      </section>
+
+      <section id="factors" class="grid three">
+        <article class="panel factor-panel"><div class="section-head compact"><div><p class="eyebrow">Factor 01</p><h2>First mention</h2></div></div><div id="early-chart" class="bar-chart"></div></article>
+        <article class="panel factor-panel"><div class="section-head compact"><div><p class="eyebrow">Factor 02</p><h2>Drop density</h2></div></div><div id="volume-chart" class="bar-chart"></div></article>
+        <article class="panel factor-panel"><div class="section-head compact"><div><p class="eyebrow">Factor 03</p><h2>Spiral factor</h2></div></div><div id="shame-chart" class="bar-chart"></div></article>
+      </section>
+
+      <section class="grid two">
+        <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">Map</p><h2>Early vs frequent</h2></div><p>Left is worse. Higher is louder.</p></div>
+          <div id="scatter" class="scatter"></div>
+        </article>
+        <article class="panel">
+          <div class="section-head"><div><p class="eyebrow">Release order</p><h2>Infection timeline</h2></div><p>Height = exact GStack drops.</p></div>
+          <div id="timeline" class="timeline"></div>
+        </article>
+      </section>
+
+      <section class="grid two bottom-grid">
+        <article id="receipts-panel" class="panel">
+          <div class="section-head"><div><p class="eyebrow">Receipts</p><h2>Timestamp evidence</h2></div></div>
+          <ul id="receipts" class="receipts"></ul>
+        </article>
+        <article class="panel scorer-panel">
+          <div class="section-head"><div><p class="eyebrow">Manual scorer</p><h2>Rank another transcript</h2></div></div>
+          <form id="score-form">
+            <input id="title" placeholder="Episode title" />
+            <input id="show" placeholder="Show" />
+            <input id="url" placeholder="Episode URL" />
+            <textarea id="transcript" placeholder="Paste timestamped transcript lines…"></textarea>
+            <button type="submit">Score it</button>
+            <p id="result" class="result"></p>
+          </form>
+        </article>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

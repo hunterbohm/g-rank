@@ -1,0 +1,53 @@
+name: Update episode data and deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.3.14"
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Refresh YouTube transcript data
+        run: python scripts/update-episodes.py
+      - name: Test and build
+        run: |
+          bun test
+          bun run build
+      - name: Commit refreshed source data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/episodes.json assets/og.png dist
+          git commit -m "chore: update G-Rank data" || echo "No source data changes"
+          git push origin HEAD:main
+      - name: Deploy GitHub Pages branch
+        run: |
+          rm -rf /tmp/g-rank-pages
+          mkdir -p /tmp/g-rank-pages
+          cp -R dist/. /tmp/g-rank-pages/
+          cd /tmp/g-rank-pages
+          git init
+          git checkout -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy G-Rank"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

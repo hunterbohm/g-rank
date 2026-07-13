@@ -1,0 +1,14 @@
+{
+  "name": "g-rank",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "start": "bun --hot server.ts",
+    "build": "bun scripts/build-static.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
