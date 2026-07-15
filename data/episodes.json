@@ -1,5 +1,16 @@
 [
   {
+    "id": "bjW7nL3l08g",
+    "title": "We're back to \"too many models\"",
+    "published": "2026-07-14T22:42:03+00:00",
+    "url": "https://youtu.be/bjW7nL3l08g",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bjW7nL3l08g! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "sZQzXf-RjY8",
     "title": "$14,000 of GPT 5.6 for $200",
     "published": "2026-07-10T17:15:15+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tDynIM2nW-c! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "YkrsHFWrZsA",
-    "title": "My Cursor Investment Paid Off",
-    "published": "2026-06-25T17:00:08+00:00",
-    "url": "https://youtu.be/YkrsHFWrZsA",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YkrsHFWrZsA! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
