@@ -1,5 +1,16 @@
 [
   {
+    "id": "1gGuLoHzpyo",
+    "title": "Grok Might Win On Price",
+    "published": "2026-07-16T00:00:06+00:00",
+    "url": "https://youtu.be/1gGuLoHzpyo",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=1gGuLoHzpyo! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "bjW7nL3l08g",
     "title": "We're back to \"too many models\"",
     "published": "2026-07-14T22:42:03+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=lWw2_dz6tq0! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "tDynIM2nW-c",
-    "title": "Is Dario Just Not Relatable?",
-    "published": "2026-06-25T20:15:28+00:00",
-    "url": "https://youtu.be/tDynIM2nW-c",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tDynIM2nW-c! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
