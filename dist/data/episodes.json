@@ -1,5 +1,16 @@
 [
   {
+    "id": "3B_CZI-OC9I",
+    "title": "GPT 5.6 Sol is Super Token Efficient",
+    "published": "2026-07-19T22:20:39+00:00",
+    "url": "https://youtu.be/3B_CZI-OC9I",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3B_CZI-OC9I! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "XysA_-qkaHI",
     "title": "5.6 Might Take Things To Literally",
     "published": "2026-07-16T18:00:39+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=PxQ9jUjdLpY! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "5r2qi7AcEVo",
-    "title": "They Launched GPT 5.6...(Kinda)",
-    "published": "2026-06-30T22:18:26+00:00",
-    "url": "https://youtu.be/5r2qi7AcEVo",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=5r2qi7AcEVo! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
