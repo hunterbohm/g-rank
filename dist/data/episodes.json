@@ -1,5 +1,16 @@
 [
   {
+    "id": "zWdNo6DnHZk",
+    "title": "GPT 5.6 might be too literal...",
+    "published": "2026-07-21T21:30:08+00:00",
+    "url": "https://youtu.be/zWdNo6DnHZk",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=zWdNo6DnHZk! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "3B_CZI-OC9I",
     "title": "GPT 5.6 Sol is Super Token Efficient",
     "published": "2026-07-19T22:20:39+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=afxZxZNwOXc! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "PxQ9jUjdLpY",
-    "title": "Find This Hidden Codex Setting For Agents",
-    "published": "2026-07-01T14:00:06+00:00",
-    "url": "https://youtu.be/PxQ9jUjdLpY",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=PxQ9jUjdLpY! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
