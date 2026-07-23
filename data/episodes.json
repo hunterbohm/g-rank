@@ -1,5 +1,16 @@
 [
   {
+    "id": "tWDlJO_0RVA",
+    "title": "Grok Is Actually Pretty Good \ud83d\udc40",
+    "published": "2026-07-22T20:00:04+00:00",
+    "url": "https://youtu.be/tWDlJO_0RVA",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tWDlJO_0RVA! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "zWdNo6DnHZk",
     "title": "GPT 5.6 might be too literal...",
     "published": "2026-07-21T21:30:08+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZeEF40k0EbI! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "afxZxZNwOXc",
-    "title": "Is Anthropic actually the most dangerous AI lab?",
-    "published": "2026-07-01T19:00:07+00:00",
-    "url": "https://youtu.be/afxZxZNwOXc",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=afxZxZNwOXc! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
