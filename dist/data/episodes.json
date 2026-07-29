@@ -1,5 +1,16 @@
 [
   {
+    "id": "3hxylXfkC1c",
+    "title": "Opus 5 Is an Old Opus Dressed Up Like Fable",
+    "published": "2026-07-28T21:00:00+00:00",
+    "url": "https://youtu.be/3hxylXfkC1c",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3hxylXfkC1c! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "TA-PWCpY8fQ",
     "title": "Opus 5 Isn't What We Thought It Was...",
     "published": "2026-07-28T04:20:09+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=IwaSPWA-iVA! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "PslW5VagdxQ",
-    "title": "How to Poison Your Repo against AI Slop",
-    "published": "2026-07-03T22:00:39+00:00",
-    "url": "https://youtu.be/PslW5VagdxQ",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=PslW5VagdxQ! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
