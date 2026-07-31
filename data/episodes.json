@@ -1,5 +1,16 @@
 [
   {
+    "id": "14NDqyRJuM0",
+    "title": "OpenAI Hacked Hugging Face",
+    "published": "2026-07-30T21:00:20+00:00",
+    "url": "https://youtu.be/14NDqyRJuM0",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=14NDqyRJuM0! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "3hxylXfkC1c",
     "title": "Opus 5 Is an Old Opus Dressed Up Like Fable",
     "published": "2026-07-28T21:00:00+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hMetWZxcG54! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "IwaSPWA-iVA",
-    "title": "You can FINALLY use Composer outside Cursor",
-    "published": "2026-07-06T21:00:06+00:00",
-    "url": "https://youtu.be/IwaSPWA-iVA",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=IwaSPWA-iVA! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
