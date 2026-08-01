@@ -1,5 +1,16 @@
 [
   {
+    "id": "ghsIxNPpSd4",
+    "title": "Opus 5 Built a COD Clone in One Loop",
+    "published": "2026-07-31T21:00:02+00:00",
+    "url": "https://youtu.be/ghsIxNPpSd4",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ghsIxNPpSd4! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "14NDqyRJuM0",
     "title": "OpenAI Hacked Hugging Face",
     "published": "2026-07-30T21:00:20+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=s6dgBR_02fM! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "hMetWZxcG54",
-    "title": "GPT 5.6 Has Trauma from Training",
-    "published": "2026-07-07T19:00:25+00:00",
-    "url": "https://youtu.be/hMetWZxcG54",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hMetWZxcG54! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
