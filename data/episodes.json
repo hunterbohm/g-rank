@@ -1,5 +1,16 @@
 [
   {
+    "id": "QXMv6DFhVM4",
+    "title": "Opus 5's Computer Use Is Garbage",
+    "published": "2026-08-03T16:00:38+00:00",
+    "url": "https://youtu.be/QXMv6DFhVM4",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=QXMv6DFhVM4! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "ghsIxNPpSd4",
     "title": "Opus 5 Built a COD Clone in One Loop",
     "published": "2026-07-31T21:00:02+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SnZmERtGxPY! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "s6dgBR_02fM",
-    "title": "Fable Is (50%) Back",
-    "published": "2026-07-08T14:29:24+00:00",
-    "url": "https://youtu.be/s6dgBR_02fM",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=s6dgBR_02fM! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
