@@ -1,5 +1,16 @@
 [
   {
+    "id": "GVdK8Wg0LN4",
+    "title": "Kimi K3 Isn't Actually Cheaper",
+    "published": "2026-08-04T19:00:05+00:00",
+    "url": "https://youtu.be/GVdK8Wg0LN4",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=GVdK8Wg0LN4! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "QXMv6DFhVM4",
     "title": "Opus 5's Computer Use Is Garbage",
     "published": "2026-08-03T16:00:38+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=iLTLDairQ-w! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "SnZmERtGxPY",
-    "title": "Stop AI Generating Your Skills",
-    "published": "2026-07-08T22:15:30+00:00",
-    "url": "https://youtu.be/SnZmERtGxPY",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=SnZmERtGxPY! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
