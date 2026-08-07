@@ -1,5 +1,16 @@
 [
   {
+    "id": "NnAsWh1LEno",
+    "title": "\"It's Better To Be Late, Than Early\" - @t3dotgg",
+    "published": "2026-08-06T18:00:08+00:00",
+    "url": "https://youtu.be/NnAsWh1LEno",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=NnAsWh1LEno! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "WFYXFNxLHXE",
     "title": "Opus Refused to Push My Own Branch",
     "published": "2026-08-05T19:00:12+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sZQzXf-RjY8! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "sQ07OcRzMqo",
-    "title": "We Tested GPT 5.6 Sol Early",
-    "published": "2026-07-09T18:21:05+00:00",
-    "url": "https://youtu.be/sQ07OcRzMqo",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sQ07OcRzMqo! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
