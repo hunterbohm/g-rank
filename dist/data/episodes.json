@@ -1,5 +1,16 @@
 [
   {
+    "id": "jTbrj_AZ5_4",
+    "title": "Opus vs Fable: According to Tony Hawk",
+    "published": "2026-08-07T19:00:31+00:00",
+    "url": "https://youtu.be/jTbrj_AZ5_4",
+    "show": "Nerd Snipe",
+    "transcriptStatus": "error",
+    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=jTbrj_AZ5_4! This is most likely caused by:",
+    "mentions": [],
+    "mentionCount": 0
+  },
+  {
     "id": "NnAsWh1LEno",
     "title": "\"It's Better To Be Late, Than Early\" - @t3dotgg",
     "published": "2026-08-06T18:00:08+00:00",
@@ -150,17 +161,6 @@
     "show": "Nerd Snipe",
     "transcriptStatus": "error",
     "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bjW7nL3l08g! This is most likely caused by:",
-    "mentions": [],
-    "mentionCount": 0
-  },
-  {
-    "id": "sZQzXf-RjY8",
-    "title": "$14,000 of GPT 5.6 for $200",
-    "published": "2026-07-10T17:15:15+00:00",
-    "url": "https://youtu.be/sZQzXf-RjY8",
-    "show": "Nerd Snipe",
-    "transcriptStatus": "error",
-    "error": "Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sZQzXf-RjY8! This is most likely caused by:",
     "mentions": [],
     "mentionCount": 0
   }
